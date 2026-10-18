@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.32126.317
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CounterAPI", "CounterAPI.csproj", "{FDC24BC5-4471-43B4-A549-3DF12C75879A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNet10API", "..\DotNet10API\DotNet10API.csproj", "{153F2C71-F0C1-4E18-AFBC-2AD1512C7D81}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{FDC24BC5-4471-43B4-A549-3DF12C75879A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FDC24BC5-4471-43B4-A549-3DF12C75879A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FDC24BC5-4471-43B4-A549-3DF12C75879A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153F2C71-F0C1-4E18-AFBC-2AD1512C7D81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153F2C71-F0C1-4E18-AFBC-2AD1512C7D81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153F2C71-F0C1-4E18-AFBC-2AD1512C7D81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153F2C71-F0C1-4E18-AFBC-2AD1512C7D81}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
