@@ -11,7 +11,7 @@ on:
       - master
       - main
       - develop
-
+        
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -25,13 +25,13 @@ jobs:
           dotnet-version: '10.0.x'
 
       - name: Restore dependencies
-        run: dotnet restore
+        run: dotnet restore CounterAPI/CounterAPI.sln
 
       - name: Build
-        run: dotnet build --configuration Release --no-restore
+        run: dotnet build CounterAPI/CounterAPI.sln --configuration Release --no-restore
 
       - name: Test
-        run: dotnet test --configuration Release --no-build --verbosity normal
+        run: dotnet test CounterAPI/CounterAPI.sln --configuration Release --no-build --verbosity normal
 
-      - name: Publish
-        run: dotnet publish -c Release -o publish --no-build
+      - name: Publish DotNet10API
+        run: dotnet publish DotNet10API/DotNet10API.csproj -c Release -o publish --no-build
